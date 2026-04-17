@@ -91,7 +91,7 @@ export const TrendsPage = () => {
                       <XAxis dataKey="exam_date" tick={{ fontSize: 12 }} />
                       <YAxis tick={{ fontSize: 12 }} />
                       <Tooltip
-                        formatter={(value: any, name: any) => [`${value} ${unit || ''}`, selected]}
+                        formatter={(value: any) => [`${value} ${unit || ''}`, selected]}
                         labelFormatter={(label) => `Date: ${label}`}
                       />
                       {rangeMin != null && (
