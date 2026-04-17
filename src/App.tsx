@@ -8,6 +8,7 @@ import { ReportsPage } from './pages/Reports'
 import { ReportDetailPage } from './pages/ReportDetail'
 import { RemindersPage } from './pages/Reminders'
 import { SettingsPage } from './pages/Settings'
+import { TrendsPage } from './pages/Trends'
 
 function App() {
   return (
